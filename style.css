@@ -6,8 +6,19 @@
     box-sizing: border-box;
 }
 .body {
+    font-family: inherit;
     background-color: rgb(235, 2445, 255);
 }
+
+
+/* -----------------------------------------------
+Blogger Template Style
+Name:        Blogger Template
+License:     Free Version
+Version:     2.0
+Author:      AS ★ Official
+Author Url:  https://timefactsmedia.xyz/
+----------------------------------------------- */
 
 .nav {
     max-width: 1250px;
@@ -770,6 +781,8 @@
 }
 
 .choose_h_title {
+    width: 500px;
+    margin: auto;
     text-align: center;
     padding: 50px 0px;
 }
@@ -777,7 +790,9 @@
     color: rgb(0, 86, 254);
 }
 .choose_h_title p {
+    font-size: 20px;
     padding: 5px 5px;
+    font-family: 'poppins', sans-serif;
 }
 
 
