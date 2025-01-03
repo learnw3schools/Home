@@ -966,6 +966,7 @@ Author Url:  https://timefactsmedia.xyz/
     border-radius: 0px 80px;
 }
 /* End Footer Team Worker Design */
+
 .footer a {
     text-decoration: none;
 }
@@ -1028,6 +1029,8 @@ Author Url:  https://timefactsmedia.xyz/
 }
 .footer_profile a:hover {
     border-bottom: 1px solid;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
 }
 /* End Footer Profile */
 
@@ -1053,7 +1056,7 @@ Author Url:  https://timefactsmedia.xyz/
 
 
 .ft_c_title {
-    padding: 10px 0px;
+    margin-top: 20px;
 }
 .ft_c_title h1 {
     color: whitesmoke;
@@ -1061,8 +1064,9 @@ Author Url:  https://timefactsmedia.xyz/
 }
 .ft_gmail_ct {
     display: flex;
-    gap: 0px 20px;
-    padding: 10px 0px;
+    align-items: center;
+    gap: 0px 10px;
+    padding: 5px 0px;
 }
 .fa-regular {
     color: white;
@@ -1072,8 +1076,13 @@ Author Url:  https://timefactsmedia.xyz/
     width: 50px;
 }
 
-.ft_gmail_title h2, h3 {
+.ft_gmail_title h2 {
+    font-size: 25px;
     color: whitesmoke;
+}
+.ft_gmail_title h3 {
+    font-size: 20px;
+    margin-top: -8px;
 }
 
 
